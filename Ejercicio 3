@@ -1,0 +1,8 @@
+# Lista de números con duplicados
+numeros = [1, 2, 3, 4, 2, 3, 5, 6, 5]
+
+# Eliminar duplicados utilizando un conjunto y mostrar resultados
+numeros_sin_duplicados = list(set(numeros))
+print(f"Lista original: {numeros}")
+print(f"Lista sin duplicados: {numeros_sin_duplicados}")
+
