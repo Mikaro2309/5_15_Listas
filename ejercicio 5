@@ -1,0 +1,3 @@
+# Usar list comprehension para generar las potencias de 2 del 0 al 9
+potencias = [2**n for n in range(10)]
+print(f"Potencias de 2 del 0 al 9: {potencias}")
