@@ -1,0 +1,7 @@
+# Dos listas de números de diferente longitud
+lista1 = [1, 2, 3, 4]
+lista2 = [10, 20, 30]
+
+# Sumar las listas en posiciones correspondientes
+resultado = [a + b for a, b in zip(lista1 + [0]*(len(lista2) - len(lista1)), lista2 + [0]*(len(lista1) - len(lista2)))]
+print(f"Suma de listas: {resultado}")
