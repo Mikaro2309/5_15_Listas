@@ -1,7 +1,7 @@
-# Solicitar tres números al usuario
-num1 = int(input("Introduce el primer número: "))
-num2 = int(input("Introduce el segundo número: "))
-num3 = int(input("Introduce el tercer número: "))
+# Valores predefinidos para pruebas
+num1 = 5
+num2 = 10
+num3 = 3
 
 # Determinar el número mayor o si todos son iguales
 if num1 == num2 == num3:
